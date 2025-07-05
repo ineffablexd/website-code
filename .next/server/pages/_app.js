@@ -1,0 +1,145 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/_app";
+exports.ids = ["pages/_app"];
+exports.modules = {
+
+/***/ "(pages-dir-node)/./components/Navbar.js":
+/*!******************************!*\
+  !*** ./components/Navbar.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Navbar)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ \"(pages-dir-node)/./node_modules/next/link.js\");\n/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/router */ \"(pages-dir-node)/./node_modules/next/router.js\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\nfunction Navbar() {\n    const router = (0,next_router__WEBPACK_IMPORTED_MODULE_3__.useRouter)();\n    const [isOpen, setIsOpen] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false); // State to manage mobile menu visibility\n    const navLinks = [\n        {\n            name: 'Home',\n            path: '/'\n        },\n        {\n            name: 'Screenshots',\n            path: '/screenshots'\n        },\n        {\n            name: 'Support Group',\n            path: '/support-group'\n        },\n        {\n            name: 'Buy',\n            path: '/buy'\n        },\n        {\n            name: 'About',\n            path: '/about'\n        }\n    ];\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"nav\", {\n        className: \"fixed top-0 left-0 right-0 z-50 p-4\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \" max-w-7xl mx-auto relative rounded-full shadow-lg border border-gray-700 bg-black bg-opacity-80 py-2 px-4 flex items-center justify-between \",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"flex-shrink-0 text-white text-lg font-bold\",\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {\n                            href: \"/\",\n                            children: \"Ineffable Hub Plus\"\n                        }, void 0, false, {\n                            fileName: \"/home/ineffable/Downloads/ineffable_hub_site_v2/components/Navbar.js\",\n                            lineNumber: 32,\n                            columnNumber: 11\n                        }, this)\n                    }, void 0, false, {\n                        fileName: \"/home/ineffable/Downloads/ineffable_hub_site_v2/components/Navbar.js\",\n                        lineNumber: 30,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"md:hidden\",\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                            onClick: ()=>setIsOpen(!isOpen),\n                            className: \"text-gray-300 hover:text-white focus:outline-none focus:text-white\",\n                            \"aria-label\": \"Toggle navigation\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"svg\", {\n                                className: \"h-6 w-6\",\n                                fill: \"none\",\n                                viewBox: \"0 0 24 24\",\n                                stroke: \"currentColor\",\n                                children: isOpen ? /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                                    strokeLinecap: \"round\",\n                                    strokeLinejoin: \"round\",\n                                    strokeWidth: \"2\",\n                                    d: \"M6 18L18 6M6 6l12 12\"\n                                }, void 0, false, {\n                                    fileName: \"/home/ineffable/Downloads/ineffable_hub_site_v2/components/Navbar.js\",\n                                    lineNumber: 44,\n                                    columnNumber: 17\n                                }, this) : /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                                    strokeLinecap: \"round\",\n                                    strokeLinejoin: \"round\",\n                                    strokeWidth: \"2\",\n                                    d: \"M4 6h16M4 12h16M4 18h16\"\n                                }, void 0, false, {\n                                    fileName: \"/home/ineffable/Downloads/ineffable_hub_site_v2/components/Navbar.js\",\n                                    lineNumber: 46,\n                                    columnNumber: 17\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"/home/ineffable/Downloads/ineffable_hub_site_v2/components/Navbar.js\",\n                                lineNumber: 42,\n                                columnNumber: 13\n                            }, this)\n                        }, void 0, false, {\n                            fileName: \"/home/ineffable/Downloads/ineffable_hub_site_v2/components/Navbar.js\",\n                            lineNumber: 37,\n                            columnNumber: 11\n                        }, this)\n                    }, void 0, false, {\n                        fileName: \"/home/ineffable/Downloads/ineffable_hub_site_v2/components/Navbar.js\",\n                        lineNumber: 36,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \" hidden md:flex items-center space-x-4 font-inter \",\n                        children: navLinks.map((link)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {\n                                href: link.path,\n                                className: `\n                px-4 py-2\n                rounded-full\n                text-sm font-medium\n                transition-all duration-300 ease-in-out\n                antialiased\n                ${router.pathname === link.path ? 'bg-blue-600 text-white shadow-md' : 'text-gray-300 hover:bg-gray-700 hover:text-white'}\n              `,\n                                children: link.name\n                            }, link.name, false, {\n                                fileName: \"/home/ineffable/Downloads/ineffable_hub_site_v2/components/Navbar.js\",\n                                lineNumber: 60,\n                                columnNumber: 13\n                            }, this))\n                    }, void 0, false, {\n                        fileName: \"/home/ineffable/Downloads/ineffable_hub_site_v2/components/Navbar.js\",\n                        lineNumber: 53,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/home/ineffable/Downloads/ineffable_hub_site_v2/components/Navbar.js\",\n                lineNumber: 19,\n                columnNumber: 7\n            }, this),\n            isOpen && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \" md:hidden bg-black rounded-3xl shadow-lg mt-2 mx-auto max-w-fit p-10 flex flex-col items-center space-y-2 \",\n                children: navLinks.map((link)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {\n                        href: link.path,\n                        onClick: ()=>setIsOpen(false),\n                        className: `\n                w-full text-center\n                px-4 py-2\n                rounded-3xl\n\n                text-base font-medium\n                transition-all duration-300 ease-in-out\n                ${router.pathname === link.path ? 'bg-blue-600 text-white shadow-md' : 'text-gray-300 hover:bg-gray-700 hover:text-white'}\n              `,\n                        children: link.name\n                    }, link.name, false, {\n                        fileName: \"/home/ineffable/Downloads/ineffable_hub_site_v2/components/Navbar.js\",\n                        lineNumber: 93,\n                        columnNumber: 13\n                    }, this))\n            }, void 0, false, {\n                fileName: \"/home/ineffable/Downloads/ineffable_hub_site_v2/components/Navbar.js\",\n                lineNumber: 82,\n                columnNumber: 9\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/home/ineffable/Downloads/ineffable_hub_site_v2/components/Navbar.js\",\n        lineNumber: 18,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHBhZ2VzLWRpci1ub2RlKS8uL2NvbXBvbmVudHMvTmF2YmFyLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7QUFBd0M7QUFDWDtBQUNXO0FBRXpCLFNBQVNJO0lBQ3RCLE1BQU1DLFNBQVNGLHNEQUFTQTtJQUN4QixNQUFNLENBQUNHLFFBQVFDLFVBQVUsR0FBR04sK0NBQVFBLENBQUMsUUFBUSx5Q0FBeUM7SUFFdEYsTUFBTU8sV0FBVztRQUNmO1lBQUVDLE1BQU07WUFBUUMsTUFBTTtRQUFJO1FBQzFCO1lBQUVELE1BQU07WUFBZUMsTUFBTTtRQUFlO1FBQzVDO1lBQUVELE1BQU07WUFBaUJDLE1BQU07UUFBaUI7UUFDaEQ7WUFBRUQsTUFBTTtZQUFPQyxNQUFNO1FBQU87UUFDNUI7WUFBRUQsTUFBTTtZQUFTQyxNQUFNO1FBQVM7S0FDakM7SUFFRCxxQkFDRSw4REFBQ0M7UUFBSUMsV0FBVTs7MEJBQ2IsOERBQUNDO2dCQUFJRCxXQUFVOztrQ0FXYiw4REFBQ0M7d0JBQUlELFdBQVU7a0NBRWIsNEVBQUNWLGtEQUFJQTs0QkFBQ1ksTUFBSztzQ0FBSTs7Ozs7Ozs7Ozs7a0NBSWpCLDhEQUFDRDt3QkFBSUQsV0FBVTtrQ0FDYiw0RUFBQ0c7NEJBQ0NDLFNBQVMsSUFBTVQsVUFBVSxDQUFDRDs0QkFDMUJNLFdBQVU7NEJBQ1ZLLGNBQVc7c0NBRVgsNEVBQUNDO2dDQUFJTixXQUFVO2dDQUFVTyxNQUFLO2dDQUFPQyxTQUFRO2dDQUFZQyxRQUFPOzBDQUM3RGYsdUJBQ0MsOERBQUNJO29DQUFLWSxlQUFjO29DQUFRQyxnQkFBZTtvQ0FBUUMsYUFBWTtvQ0FBSUMsR0FBRTs7Ozs7eURBRXJFLDhEQUFDZjtvQ0FBS1ksZUFBYztvQ0FBUUMsZ0JBQWU7b0NBQVFDLGFBQVk7b0NBQUlDLEdBQUU7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztrQ0FPN0UsOERBQUNaO3dCQUFJRCxXQUFVO2tDQU1aSixTQUFTa0IsR0FBRyxDQUFDLENBQUNDLHFCQUNiLDhEQUFDekIsa0RBQUlBO2dDQUVIWSxNQUFNYSxLQUFLakIsSUFBSTtnQ0FDZkUsV0FBVyxDQUFDOzs7Ozs7Z0JBTVYsRUFBRVAsT0FBT3VCLFFBQVEsS0FBS0QsS0FBS2pCLElBQUksR0FDM0IscUNBQ0EsbURBQW1EO2NBQ3pELENBQUM7MENBRUFpQixLQUFLbEIsSUFBSTsrQkFiTGtCLEtBQUtsQixJQUFJOzs7Ozs7Ozs7Ozs7Ozs7O1lBb0JyQkgsd0JBQ0MsOERBQUNPO2dCQUFJRCxXQUFVOzBCQVVaSixTQUFTa0IsR0FBRyxDQUFDLENBQUNDLHFCQUNiLDhEQUFDekIsa0RBQUlBO3dCQUVIWSxNQUFNYSxLQUFLakIsSUFBSTt3QkFDZk0sU0FBUyxJQUFNVCxVQUFVO3dCQUN6QkssV0FBVyxDQUFDOzs7Ozs7O2dCQU9WLEVBQUVQLE9BQU91QixRQUFRLEtBQUtELEtBQUtqQixJQUFJLEdBQzNCLHFDQUNBLG1EQUFtRDtjQUN6RCxDQUFDO2tDQUVBaUIsS0FBS2xCLElBQUk7dUJBZkxrQixLQUFLbEIsSUFBSTs7Ozs7Ozs7Ozs7Ozs7OztBQXNCNUIiLCJzb3VyY2VzIjpbIi9ob21lL2luZWZmYWJsZS9Eb3dubG9hZHMvaW5lZmZhYmxlX2h1Yl9zaXRlX3YyL2NvbXBvbmVudHMvTmF2YmFyLmpzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCwgeyB1c2VTdGF0ZSB9IGZyb20gJ3JlYWN0JztcbmltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluayc7XG5pbXBvcnQgeyB1c2VSb3V0ZXIgfSBmcm9tICduZXh0L3JvdXRlcic7XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIE5hdmJhcigpIHtcbiAgY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCk7XG4gIGNvbnN0IFtpc09wZW4sIHNldElzT3Blbl0gPSB1c2VTdGF0ZShmYWxzZSk7IC8vIFN0YXRlIHRvIG1hbmFnZSBtb2JpbGUgbWVudSB2aXNpYmlsaXR5XG5cbiAgY29uc3QgbmF2TGlua3MgPSBbXG4gICAgeyBuYW1lOiAnSG9tZScsIHBhdGg6ICcvJyB9LFxuICAgIHsgbmFtZTogJ1NjcmVlbnNob3RzJywgcGF0aDogJy9zY3JlZW5zaG90cycgfSxcbiAgICB7IG5hbWU6ICdTdXBwb3J0IEdyb3VwJywgcGF0aDogJy9zdXBwb3J0LWdyb3VwJyB9LFxuICAgIHsgbmFtZTogJ0J1eScsIHBhdGg6ICcvYnV5JyB9LFxuICAgIHsgbmFtZTogJ0Fib3V0JywgcGF0aDogJy9hYm91dCcgfSxcbiAgXTtcblxuICByZXR1cm4gKFxuICAgIDxuYXYgY2xhc3NOYW1lPVwiZml4ZWQgdG9wLTAgbGVmdC0wIHJpZ2h0LTAgei01MCBwLTRcIj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiXG4gICAgICAgIG1heC13LTd4bCBteC1hdXRvXG4gICAgICAgIHJlbGF0aXZlXG4gICAgICAgIHJvdW5kZWQtZnVsbFxuICAgICAgICBzaGFkb3ctbGdcbiAgICAgICAgYm9yZGVyIGJvcmRlci1ncmF5LTcwMFxuICAgICAgICBiZy1ibGFjayBiZy1vcGFjaXR5LTgwXG4gICAgICAgIHB5LTIgcHgtNFxuICAgICAgICBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW5cbiAgICAgIFwiPlxuICAgICAgICB7LyogWW91IG1pZ2h0IHdhbnQgYSBsb2dvIG9yIHRpdGxlIGhlcmUgZm9yIGxhcmdlciBzY3JlZW5zICovfVxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXgtc2hyaW5rLTAgdGV4dC13aGl0ZSB0ZXh0LWxnIGZvbnQtYm9sZFwiPlxuICAgICAgICAgIHsvKiBSZXBsYWNlIHdpdGggeW91ciBhY3R1YWwgbG9nbyBvciBicmFuZCBuYW1lICovfVxuICAgICAgICAgIDxMaW5rIGhyZWY9XCIvXCI+SW5lZmZhYmxlIEh1YiBQbHVzPC9MaW5rPlxuICAgICAgICA8L2Rpdj5cblxuICAgICAgICB7LyogSGFtYnVyZ2VyIG1lbnUgaWNvbiBmb3IgbW9iaWxlICovfVxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1kOmhpZGRlblwiPlxuICAgICAgICAgIDxidXR0b25cbiAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldElzT3BlbighaXNPcGVuKX1cbiAgICAgICAgICAgIGNsYXNzTmFtZT1cInRleHQtZ3JheS0zMDAgaG92ZXI6dGV4dC13aGl0ZSBmb2N1czpvdXRsaW5lLW5vbmUgZm9jdXM6dGV4dC13aGl0ZVwiXG4gICAgICAgICAgICBhcmlhLWxhYmVsPVwiVG9nZ2xlIG5hdmlnYXRpb25cIlxuICAgICAgICAgID5cbiAgICAgICAgICAgIDxzdmcgY2xhc3NOYW1lPVwiaC02IHctNlwiIGZpbGw9XCJub25lXCIgdmlld0JveD1cIjAgMCAyNCAyNFwiIHN0cm9rZT1cImN1cnJlbnRDb2xvclwiPlxuICAgICAgICAgICAgICB7aXNPcGVuID8gKFxuICAgICAgICAgICAgICAgIDxwYXRoIHN0cm9rZUxpbmVjYXA9XCJyb3VuZFwiIHN0cm9rZUxpbmVqb2luPVwicm91bmRcIiBzdHJva2VXaWR0aD1cIjJcIiBkPVwiTTYgMThMMTggNk02IDZsMTIgMTJcIiAvPlxuICAgICAgICAgICAgICApIDogKFxuICAgICAgICAgICAgICAgIDxwYXRoIHN0cm9rZUxpbmVjYXA9XCJyb3VuZFwiIHN0cm9rZUxpbmVqb2luPVwicm91bmRcIiBzdHJva2VXaWR0aD1cIjJcIiBkPVwiTTQgNmgxNk00IDEyaDE2TTQgMThoMTZcIiAvPlxuICAgICAgICAgICAgICApfVxuICAgICAgICAgICAgPC9zdmc+XG4gICAgICAgICAgPC9idXR0b24+XG4gICAgICAgIDwvZGl2PlxuXG4gICAgICAgIHsvKiBEZXNrdG9wIE5hdmlnYXRpb24gTGlua3MgKi99XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiXG4gICAgICAgICAgaGlkZGVuIG1kOmZsZXhcbiAgICAgICAgICBpdGVtcy1jZW50ZXJcbiAgICAgICAgICBzcGFjZS14LTRcbiAgICAgICAgICBmb250LWludGVyXG4gICAgICAgIFwiPlxuICAgICAgICAgIHtuYXZMaW5rcy5tYXAoKGxpbmspID0+IChcbiAgICAgICAgICAgIDxMaW5rXG4gICAgICAgICAgICAgIGtleT17bGluay5uYW1lfVxuICAgICAgICAgICAgICBocmVmPXtsaW5rLnBhdGh9XG4gICAgICAgICAgICAgIGNsYXNzTmFtZT17YFxuICAgICAgICAgICAgICAgIHB4LTQgcHktMlxuICAgICAgICAgICAgICAgIHJvdW5kZWQtZnVsbFxuICAgICAgICAgICAgICAgIHRleHQtc20gZm9udC1tZWRpdW1cbiAgICAgICAgICAgICAgICB0cmFuc2l0aW9uLWFsbCBkdXJhdGlvbi0zMDAgZWFzZS1pbi1vdXRcbiAgICAgICAgICAgICAgICBhbnRpYWxpYXNlZFxuICAgICAgICAgICAgICAgICR7cm91dGVyLnBhdGhuYW1lID09PSBsaW5rLnBhdGhcbiAgICAgICAgICAgICAgICAgID8gJ2JnLWJsdWUtNjAwIHRleHQtd2hpdGUgc2hhZG93LW1kJ1xuICAgICAgICAgICAgICAgICAgOiAndGV4dC1ncmF5LTMwMCBob3ZlcjpiZy1ncmF5LTcwMCBob3Zlcjp0ZXh0LXdoaXRlJ31cbiAgICAgICAgICAgICAgYH1cbiAgICAgICAgICAgID5cbiAgICAgICAgICAgICAge2xpbmsubmFtZX1cbiAgICAgICAgICAgIDwvTGluaz5cbiAgICAgICAgICApKX1cbiAgICAgICAgPC9kaXY+XG4gICAgICA8L2Rpdj5cblxuICAgICAgey8qIE1vYmlsZSBNZW51IC0gU2hvd24gd2hlbiBpc09wZW4gaXMgdHJ1ZSAqL31cbiAgICAgIHtpc09wZW4gJiYgKFxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIlxuICAgICAgICAgIG1kOmhpZGRlblxuICAgICAgICAgIGJnLWJsYWNrXG4gICAgICAgICAgcm91bmRlZC0zeGxcbiAgICAgICAgICBzaGFkb3ctbGdcbiAgICAgICAgICBtdC0yIG14LWF1dG9cbiAgICAgICAgICBtYXgtdy1maXRcbiAgICAgICAgICBwLTEwXG4gICAgICAgICAgZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIgc3BhY2UteS0yXG4gICAgICAgIFwiPlxuICAgICAgICAgIHtuYXZMaW5rcy5tYXAoKGxpbmspID0+IChcbiAgICAgICAgICAgIDxMaW5rXG4gICAgICAgICAgICAgIGtleT17bGluay5uYW1lfVxuICAgICAgICAgICAgICBocmVmPXtsaW5rLnBhdGh9XG4gICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldElzT3BlbihmYWxzZSl9IFxuICAgICAgICAgICAgICBjbGFzc05hbWU9e2BcbiAgICAgICAgICAgICAgICB3LWZ1bGwgdGV4dC1jZW50ZXJcbiAgICAgICAgICAgICAgICBweC00IHB5LTJcbiAgICAgICAgICAgICAgICByb3VuZGVkLTN4bFxuXG4gICAgICAgICAgICAgICAgdGV4dC1iYXNlIGZvbnQtbWVkaXVtXG4gICAgICAgICAgICAgICAgdHJhbnNpdGlvbi1hbGwgZHVyYXRpb24tMzAwIGVhc2UtaW4tb3V0XG4gICAgICAgICAgICAgICAgJHtyb3V0ZXIucGF0aG5hbWUgPT09IGxpbmsucGF0aFxuICAgICAgICAgICAgICAgICAgPyAnYmctYmx1ZS02MDAgdGV4dC13aGl0ZSBzaGFkb3ctbWQnXG4gICAgICAgICAgICAgICAgICA6ICd0ZXh0LWdyYXktMzAwIGhvdmVyOmJnLWdyYXktNzAwIGhvdmVyOnRleHQtd2hpdGUnfVxuICAgICAgICAgICAgICBgfVxuICAgICAgICAgICAgPlxuICAgICAgICAgICAgICB7bGluay5uYW1lfVxuICAgICAgICAgICAgPC9MaW5rPlxuICAgICAgICAgICkpfVxuICAgICAgICA8L2Rpdj5cbiAgICAgICl9XG4gICAgPC9uYXY+XG4gICk7XG59XG4iXSwibmFtZXMiOlsiUmVhY3QiLCJ1c2VTdGF0ZSIsIkxpbmsiLCJ1c2VSb3V0ZXIiLCJOYXZiYXIiLCJyb3V0ZXIiLCJpc09wZW4iLCJzZXRJc09wZW4iLCJuYXZMaW5rcyIsIm5hbWUiLCJwYXRoIiwibmF2IiwiY2xhc3NOYW1lIiwiZGl2IiwiaHJlZiIsImJ1dHRvbiIsIm9uQ2xpY2siLCJhcmlhLWxhYmVsIiwic3ZnIiwiZmlsbCIsInZpZXdCb3giLCJzdHJva2UiLCJzdHJva2VMaW5lY2FwIiwic3Ryb2tlTGluZWpvaW4iLCJzdHJva2VXaWR0aCIsImQiLCJtYXAiLCJsaW5rIiwicGF0aG5hbWUiXSwiaWdub3JlTGlzdCI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(pages-dir-node)/./components/Navbar.js\n");
+
+/***/ }),
+
+/***/ "(pages-dir-node)/./pages/_app.js":
+/*!***********************!*\
+  !*** ./pages/_app.js ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/globals.css */ \"(pages-dir-node)/./styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Navbar */ \"(pages-dir-node)/./components/Navbar.js\");\n\n\n\nfunction MyApp({ Component, pageProps }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Navbar__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {}, void 0, false, {\n                fileName: \"/home/ineffable/Downloads/ineffable_hub_site_v2/pages/_app.js\",\n                lineNumber: 7,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n                ...pageProps\n            }, void 0, false, {\n                fileName: \"/home/ineffable/Downloads/ineffable_hub_site_v2/pages/_app.js\",\n                lineNumber: 8,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyApp);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHBhZ2VzLWRpci1ub2RlKS8uL3BhZ2VzL19hcHAuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUE4QjtBQUNXO0FBRXpDLFNBQVNDLE1BQU0sRUFBRUMsU0FBUyxFQUFFQyxTQUFTLEVBQUU7SUFDckMscUJBQ0U7OzBCQUNFLDhEQUFDSCwwREFBTUE7Ozs7OzBCQUNQLDhEQUFDRTtnQkFBVyxHQUFHQyxTQUFTOzs7Ozs7OztBQUc5QjtBQUVBLGlFQUFlRixLQUFLQSxFQUFBIiwic291cmNlcyI6WyIvaG9tZS9pbmVmZmFibGUvRG93bmxvYWRzL2luZWZmYWJsZV9odWJfc2l0ZV92Mi9wYWdlcy9fYXBwLmpzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAnLi4vc3R5bGVzL2dsb2JhbHMuY3NzJ1xuaW1wb3J0IE5hdmJhciBmcm9tICcuLi9jb21wb25lbnRzL05hdmJhcidcblxuZnVuY3Rpb24gTXlBcHAoeyBDb21wb25lbnQsIHBhZ2VQcm9wcyB9KSB7XG4gIHJldHVybiAoXG4gICAgPD5cbiAgICAgIDxOYXZiYXIgLz5cbiAgICAgIDxDb21wb25lbnQgey4uLnBhZ2VQcm9wc30gLz5cbiAgICA8Lz5cbiAgKTtcbn1cblxuZXhwb3J0IGRlZmF1bHQgTXlBcHAiXSwibmFtZXMiOlsiTmF2YmFyIiwiTXlBcHAiLCJDb21wb25lbnQiLCJwYWdlUHJvcHMiXSwiaWdub3JlTGlzdCI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(pages-dir-node)/./pages/_app.js\n");
+
+/***/ }),
+
+/***/ "(pages-dir-node)/./styles/globals.css":
+/*!****************************!*\
+  !*** ./styles/globals.css ***!
+  \****************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "fs":
+/*!*********************!*\
+  !*** external "fs" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("fs");
+
+/***/ }),
+
+/***/ "next/dist/compiled/next-server/pages.runtime.dev.js":
+/*!**********************************************************************!*\
+  !*** external "next/dist/compiled/next-server/pages.runtime.dev.js" ***!
+  \**********************************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/compiled/next-server/pages.runtime.dev.js");
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-dom":
+/*!****************************!*\
+  !*** external "react-dom" ***!
+  \****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react-dom");
+
+/***/ }),
+
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react/jsx-dev-runtime");
+
+/***/ }),
+
+/***/ "react/jsx-runtime":
+/*!************************************!*\
+  !*** external "react/jsx-runtime" ***!
+  \************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react/jsx-runtime");
+
+/***/ }),
+
+/***/ "stream":
+/*!*************************!*\
+  !*** external "stream" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("stream");
+
+/***/ }),
+
+/***/ "zlib":
+/*!***********************!*\
+  !*** external "zlib" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("zlib");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc"], () => (__webpack_exec__("(pages-dir-node)/./pages/_app.js")));
+module.exports = __webpack_exports__;
+
+})();

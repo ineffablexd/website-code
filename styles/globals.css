@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Define custom fonts */
+@font-face {
+  font-family: 'Oduda';
+  src: url('/fonts/Oduda.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fuek';
+  src: url('/fonts/Fuek.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Define base CSS variables for theming */
+:root {
+  /* Existing color variables (these will be dynamically updated by JS based on theme) */
+  --text-primary: #ffffff;
+  --card-bg-dark1: #464c7e;
+  --card-bg-dark2: #4f658e;
+  --card-bg-light1: #e1acc3;
+  --card-bg-light2: #8ab3c9;
+  --accent: #6379a2;
+  --button-bg: #6379a2;
+  --button-text: #ffffff;
+  --link-color: #8ab3c9;
+  --toggle-bg: #4f658e;
+  --toggle-handle: #ffffff;
+
+  /* --navbar-bg: rgba(0, 0, 0, 0.3); -- REMOVED: Navbar background is handled dynamically in JS */
+  --navbar-text: #ffffff;
+  --navbar-active-bg: #6379a2;
+
+  /* Variables for gradient colors, set by JS */
+  --gradient-start: #464c7e; /* Default to dark theme start */
+  --gradient-middle: #6379a2; /* Default to dark theme middle */
+  --gradient-end: #4f658e; /* Default to dark theme end */
+
+  /* NEW: Overlay color for Hero section and dynamic Navbar background */
+  --hero-overlay: rgba(0,0,0,0.4); /* Default for dark theme */
+}
+
+/* Base body styles for the fluid gradient background */
+html, body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden; /* Prevent horizontal scrollbar from gradient movement */
+
+  /* Apply the gradient to the body */
+  background: linear-gradient(
+    45deg, /* Changed angle for slightly different flow from your original request, but you can revert to 135deg */
+    var(--gradient-start),
+    var(--gradient-middle),
+    var(--gradient-end)
+  );
+  background-size: 400% 400%; /* Larger background for animation */
+  animation: gradientAnimation 15s ease infinite; /* Apply animation */
+
+  transition: background 0.5s ease; /* For smoother theme changes if colors are varied */
+
+  font-family: 'Fuek', sans-serif; /* Your default font */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+  color: var(--text-primary); /* Ensure body text uses the primary text color */
+}
+
+/* Define the animation for the fluid movement */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
