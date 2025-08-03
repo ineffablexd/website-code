@@ -80,9 +80,8 @@ export default function Buy() {
           <motion.p
             className="text-lg sm:text-xl font-bold" variants={itemVariants}>
           
-            <span className="block mb-2">Original Price: <span className="line-through">$4.99</span> / <span className="line-through">₹400</span></span>
-            <span className="block text-green-400">Sale Price: $2.99 / ₹250</span>
-            <span className="block text-sm sm:text-base font-normal mt-1">Sale ends on August 1st!</span>
+            <span className="block mb-2">Price: <span className="line-through">$4.99</span> / <span className="line-through">₹400</span></span>
+            
           </motion.p>
 
           <motion.p
