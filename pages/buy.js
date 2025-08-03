@@ -80,7 +80,7 @@ export default function Buy() {
           <motion.p
             className="text-lg sm:text-xl font-bold" variants={itemVariants}>
           
-            <span className="block mb-2">Price: <span className="line-through">$4.99</span> / <span className="line-through">₹400</span></span>
+            <span className="block mb-2">Price: <span className="bold">$4.99</span> / <span className="bold">₹400</span></span>
             
           </motion.p>
 
